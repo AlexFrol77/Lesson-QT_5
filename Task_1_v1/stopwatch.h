@@ -19,8 +19,9 @@ public slots:
     void memCircle();
 private:
     QTimer* timer;
-    uint min, sec, Ms,
-    minCircle, secCircle, MsCircle, countCircle;
+    uint16_t min, sec, ms,
+    minCircle, secCircle, msCircle, countCircle;
+    uint16_t minTemp, secTemp, msTemp;
 };
 
 #endif // STOPWATCH_H

@@ -39,10 +39,10 @@ void MainWindow::showTimer(uint min, uint sec, uint Ms)
     ui->lb_timerMs->setText(QString::number(Ms));
 }
 
-void MainWindow::showTimerCircle(uint minCircle, uint secCircle, uint MsCircle, uint countCircle)
+void MainWindow::showTimerCircle(uint minCircle, uint secCircle, uint msCircle, uint countCircle)
 {
     ui->tBr_showCircle->append("Круг: " + QString::number(countCircle) +
                                " Min : " + QString::number(minCircle) +
                                " Sec : " + QString::number(secCircle) +
-                               " Ms : " + QString::number(MsCircle));
+                               " ms : " + QString::number(msCircle));
 }
